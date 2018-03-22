@@ -28,8 +28,8 @@ In this repository, we only trained 4 decoders for layer relu1-4.
 <img width = "244" height="244" src="https://github.com/zhangcliff/WCT-based-style-transfer/blob/master/result/result_2.jpg">
  <br> 
   
- ## Test
+## Test
  <div align=left>
-'''shell
+```shell
  python test_all_layer.py --content_path content/im3.jpg --style_path style/s3.jpg  --output_path result.jpg --pretrained_vgg vgg19.npy --alpha 1
-  '''
+ ```
