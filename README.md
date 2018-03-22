@@ -30,7 +30,13 @@ In this repository, we only trained 4 decoders for layer relu1-4.
  <div align=left>  
   
 ## Test
-
+1 download the pre-trained vgg19 weights [VGG19](https://pan.baidu.com/s/1zpsUu-V9taVBoaqBLK_OuQ)
+2 download the 4 trained decoders [weights](https://pan.baidu.com/s/1wencvm0bESOU_s5k2wRmYQ)
 ```shell
-python test_all_layer.py --content_path content/im3.jpg --style_path style/s3.jpg  --output_path result.jpg --pretrained_vgg vgg19.npy --alpha 1
+mkdir models
+```
+and put the trained decoders weights to models folder
+Then run :
+```shell
+python test_all_layer.py --content_path /path/to/content_img --style_path /path/to/style_img  --output_path /path/to/result_img --pretrained_vgg path/to/vgg19 --alpha 1
  ```
