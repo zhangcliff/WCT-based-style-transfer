@@ -11,4 +11,4 @@ In the original paper, they trained 5 decoders for layer reluX(x=1,2,3,4,5) sepa
 In this repository, we only trained 4 decoders for layer relu1-4.
 
 ## Samples
-![image]( https://github.com/zhangcliff/WCT-based-style-transfer/blob/master/content/im4.jpg =304x304)
+<img width="150" height="150" src="http://img.blog.csdn.net/20161028230559575" >
