@@ -52,6 +52,7 @@ python gen_tfrecords.py
 ```
 <br>
 3 we need to train decoders for layer relu1-4 seprartely. If we want to train decoder for relu4 , wo can run as :
+
 ```shell
 python train.py --target_layer relu4 --pretrained_path path/to/vgg19 --max_iterator 20000 --checkpoint_path path/to/save_checkpoint --tfrecord_path path/to/tfrecord  --batch_size 8
 ```
