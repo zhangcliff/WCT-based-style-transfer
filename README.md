@@ -42,3 +42,11 @@ Then run :
 ```shell
 python test_all_layer.py --content_path /path/to/content_img --style_path /path/to/style_img  --output_path /path/to/result_img --pretrained_vgg path/to/vgg19 --alpha 1
  ```
+## Train
+1 download the content images from [coco](http://msvocds.blob.core.windows.net/coco2014/train2014.zip)
+<br>
+2 make tfrecord file 
+```shell
+mkdir tfrecords
+python gen_tfrecords.py
+```
