@@ -9,3 +9,6 @@ In the original paper, they trained 5 decoders for layer reluX(x=1,2,3,4,5) sepa
 ![image](https://github.com/zhangcliff/WCT-based-style-transfer/blob/master/result/network.png)
 
 In this repository, we only trained 4 decoders for layer relu1-4.
+
+## Samples
+![image](https://github.com/zhangcliff/WCT-based-style-transfer/blob/master/content/im4.jpg)
