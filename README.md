@@ -11,6 +11,14 @@ In the original paper, they trained 5 decoders for layer reluX(x=1,2,3,4,5) sepa
 In this repository, we only trained 4 decoders for layer relu1-4.
 
 ## Samples
-<div align=center><img width="244" height="244" src="https://github.com/zhangcliff/WCT-based-style-transfer/blob/master/content/im4.jpg" >
+<img width="244" height="244" src="https://github.com/zhangcliff/WCT-based-style-transfer/blob/master/content/im4.jpg" >
 <img width = "244" height="244" src ="https://github.com/zhangcliff/WCT-based-style-transfer/blob/master/style/s5.jpg">
 <img width = "244" height="244" src="https://github.com/zhangcliff/WCT-based-style-transfer/blob/master/result/result_1.jpg">
+
+<img width="244" height="244" src="https://github.com/zhangcliff/WCT-based-style-transfer/blob/master/content/im2.jpg" >
+<img width = "244" height="244" src ="https://github.com/zhangcliff/WCT-based-style-transfer/blob/master/style/s2.jpg">
+<img width = "244" height="244" src="https://github.com/zhangcliff/WCT-based-style-transfer/blob/master/result/result_2.jpg">
+
+<img width="244" height="244" src="https://github.com/zhangcliff/WCT-based-style-transfer/blob/master/content/im3.jpg" >
+<img width = "244" height="244" src ="https://github.com/zhangcliff/WCT-based-style-transfer/blob/master/style/s3.jpg">
+<img width = "244" height="244" src="https://github.com/zhangcliff/WCT-based-style-transfer/blob/master/result/result_3.jpg">
