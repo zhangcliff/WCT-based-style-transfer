@@ -12,6 +12,6 @@ In this repository, we only trained 4 decoders for layer relu1-4.
 
 ## Samples
 <div align=center><img width="304" height="304" src="https://github.com/zhangcliff/WCT-based-style-transfer/blob/master/content/im4.jpg" >
-  
+ <br> 
 <img width = "304" height="304" src ="https://github.com/zhangcliff/WCT-based-style-transfer/blob/master/style/s5.jpg">
 <img width = "304" height="304" src="https://github.com/zhangcliff/WCT-based-style-transfer/blob/master/result/result_1.jpg">
