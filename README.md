@@ -59,4 +59,5 @@ python train.py --target_layer relu4 --pretrained_path path/to/vgg19 --max_itera
 
 ## Reference
 1、[https://github.com/eridgd/WCT-TF](https://github.com/eridgd/WCT-TF)
+
 2、[https://github.com/machrisaa/tensorflow-vgg](https://github.com/machrisaa/tensorflow-vgg)
