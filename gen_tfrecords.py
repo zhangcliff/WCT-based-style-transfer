@@ -28,7 +28,7 @@ img_height=224
 
 for image_path in tqdm(images_list):
     img = image.load_img(image_path,target_size=[224,224,3])
-    img = image.img_to_array(img)
+    img = image.img_to_array(img).astype(np.uint8)
     img_raw = img.tostring()
     feature = {'image_raw':_bytes_feature(img_raw)}
     example=tf.train.Example(features=tf.train.Features(feature=feature))
